@@ -28,7 +28,7 @@ class App extends Component {
   minusChild = () => this.setState({ child: this.state.child - 1 })
 
   render() {
-    const { room, adult, child } = this.state    //doubt
+    const { room, adult, child } = this.state    
     return (
       <View style={styles.container}>
         <View style={{ width: '100%', marginLeft: '1%' }}>
